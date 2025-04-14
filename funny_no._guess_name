@@ -1,0 +1,19 @@
+import random
+x = random.randint(1,10)
+y = int(input("Suno Bhai 1 se lekar 10 ke bich ek number chun lo 😊: "))
+count = 0
+if y > 10:
+    print("Aree Bhai maine bola na ki 1 se lekar 10 ke bich chun na hai!😡")
+else:
+    while True:
+        if x == y :
+            print("Waah Bhai Tum toh jeet gaye😎")  
+            print("Dekho bhai tumne kinte chances me guess kiya hai : ",count,"😂") 
+            break
+        else:
+            print("Chalo Phir se karo!😆")
+            y = int(input("Bhai 1 se lekar 10 ke bich ek number chun l😊 : "))
+            if y > 10:
+                print("Aree Bhai maine bola na ki 1 se lekar 10 ke bich chun na hai 😡!")
+            count += 1
+        
